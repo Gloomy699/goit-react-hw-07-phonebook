@@ -1,0 +1,34 @@
+{
+    "contacts":[
+        {
+        "name": "Yaroslav Vasylenko",
+        "phone": "+38 (050) 939-50-30",
+        "id": 1
+    },
+{
+        "name": "Maryna Vasylenko",
+        "phone": "+38 (050) 277-66-19",
+        "id": 2
+    },
+    {
+        "name": "Andry Borysov",
+        "phone": "+38 (050) 779-62-45",
+        "id": 3
+    },
+    {
+        "name": "Dmitriy Kulishov",
+        "phone": "+38 (050) 679-09-92",
+        "id": 4
+    },
+     {
+        "name": "Test Tesov",
+        "phone": "+38 (050) 135-36-78",
+        "id": 5
+    },
+     {
+        "name": "Proba Probnaya",
+        "phone": "+38 (050) 123-23-34",
+        "id": 6
+    }
+]
+}
