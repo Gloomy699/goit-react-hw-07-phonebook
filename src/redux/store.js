@@ -3,7 +3,9 @@ import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import phonebookReducer from './../redux/phonebook/phonebook-reducer'
 import logger from 'redux-logger'
 import {
+    // eslint-disable-next-line no-unused-vars
     persistStore,
+    // eslint-disable-next-line no-unused-vars
     persistReducer,
     FLUSH,
     REHYDRATE,
@@ -32,3 +34,4 @@ const store = configureStore({
 
 
 export default store;
+

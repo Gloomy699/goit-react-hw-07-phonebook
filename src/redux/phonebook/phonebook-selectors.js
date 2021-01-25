@@ -10,9 +10,11 @@ const getFilterContacts = createSelector(
         return contacts.filter(({name}) => name.toLowerCase().includes(filter.toLowerCase()))
     })
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default{
     getFilter,
     getContacts,
     getLoading,
     getFilterContacts
 }
+

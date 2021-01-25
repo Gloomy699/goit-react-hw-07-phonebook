@@ -6,12 +6,13 @@ import {
     addContactRequest,
     addContactSuccess,
     addContactError,
+    // eslint-disable-next-line no-unused-vars
     findContactName,
     deleteContactRequest,
     deleteContactSuccess,
     deleteContactError } from './phonebook-actions';
 
-axios.defaults.baseURL = 'http://localhost:3030';
+axios.defaults.baseURL = 'http://localhost:3000';
 
 const fetchContact = () => async dispatch => {
 
@@ -60,9 +61,11 @@ const onFindName = name => (dispatch, getState) =>{
 
 
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default{
     fetchContact,
     addContact,
     deleteContact,
     onFindName
 }
+
